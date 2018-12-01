@@ -1,0 +1,285 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.button {
+  height: 50px;
+  width: 190px;
+  margin-top: 30px;
+  background-color: #0a91ef;
+  border: 0; }
+
+.caption1 {
+  font-size: 50px;
+  border-bottom: 4px solid black;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 50px; }
+
+.backgroundCover, .wrapper .section_1, .wrapper .section_5 {
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.colorBlack, .caption1, .wrapper .section_1 .navbar .navbar-brand, .wrapper .section_3 .textContent, .wrapper .section_3 .textContent h1, .wrapper .section_3 .textContent .city, .wrapper .section_3 .textContent p, .wrapper .section_3 .textContent p span, .wrapper .section_3 .priceContent, .wrapper .section_3 .priceContent .prise, .wrapper .section_4 .carousel .carousel-item .text, .wrapper .section_4 .carousel .carousel-item p {
+  color: black; }
+
+.textCenter, .caption1, .wrapper .section_1 .conteiner_text, .wrapper .section_1 .navbar .navbar-brand, .wrapper .section_2, .wrapper .section_3 .textContent .city, .wrapper .section_3 .priceContent, .wrapper .section_3 .priceContent .prise, .wrapper .section_5 {
+  text-align: center; }
+
+/************Section_1***********************/
+.wrapper {
+  overflow: hidden;
+  /****************Section_2************************/
+  /****************Section 3*************************/
+  /******************Section 4*****************************/ }
+  .wrapper .section_1 {
+    height: 870px;
+    background-image: url("../img/backgraundSection_1.png");
+    margin-top: -110px; }
+    .wrapper .section_1 .conteiner_text {
+      border: 5px solid white;
+      -webkit-transform: skew(-40deg);
+          -ms-transform: skew(-40deg);
+              transform: skew(-40deg);
+      background-repeat: no-repeat;
+      margin-top: 280px;
+      font-size: 100px;
+      width: 80%; }
+      .wrapper .section_1 .conteiner_text .caption {
+        -webkit-transform: skew(40deg);
+            -ms-transform: skew(40deg);
+                transform: skew(40deg); }
+    .wrapper .section_1 .subtitle {
+      font-size: 40px;
+      margin-bottom: 220px; }
+    @media only screen and (max-width: 900px) {
+      .wrapper .section_1 .caption {
+        padding-top: 25px;
+        font-size: 35px;
+        font-weight: 900; }
+      .wrapper .section_1 .subtitle {
+        text-align: center; } }
+    .wrapper .section_1 .navbar {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      z-index: 100;
+      top: 0; }
+      .wrapper .section_1 .navbar .navbar-brand {
+        width: 120px;
+        font-size: 40px;
+        background-color: white;
+        margin-left: 30px; }
+      .wrapper .section_1 .navbar li {
+        font-size: 20px; }
+      .wrapper .section_1 .navbar .navbar-toggler {
+        width: 44px;
+        height: 60px;
+        border: 3px solid white;
+        -webkit-border-radius: 10px;
+                border-radius: 10px; }
+        .wrapper .section_1 .navbar .navbar-toggler .icon-bar {
+          background-color: white; }
+      .wrapper .section_1 .navbar .RequestCall {
+        background-image: url(../img/iphone.png);
+        -webkit-background-size: 48px 48px;
+                background-size: 48px;
+        background-repeat: no-repeat;
+        padding-left: 45px;
+        padding-top: 8px;
+        font-size: 21px;
+        line-height: 4px;
+        display: inline-block; }
+        .wrapper .section_1 .navbar .RequestCall span {
+          font-size: 16px;
+          border-bottom: 1px solid white; }
+      @media only screen and (max-width: 1100px) {
+        .wrapper .section_1 .navbar li {
+          margin-left: 30px; } }
+  .wrapper .section_2 {
+    height: 700px;
+    padding-top: 100px; }
+    .wrapper .section_2 .conteiner_text_2 {
+      background-color: rgba(0, 0, 0, 0.1);
+      height: 300px;
+      -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+              transform: skew(-20deg); }
+      .wrapper .section_2 .conteiner_text_2 .caption1 {
+        padding-bottom: 6px; }
+      .wrapper .section_2 .conteiner_text_2 div {
+        -webkit-transform: skew(20deg);
+            -ms-transform: skew(20deg);
+                transform: skew(20deg); }
+      @media only screen and (max-width: 1100px) {
+        .wrapper .section_2 .conteiner_text_2 {
+          -webkit-transform: skew(0deg);
+              -ms-transform: skew(0deg);
+                  transform: skew(0deg);
+          padding-top: 10px;
+          padding: 0; }
+          .wrapper .section_2 .conteiner_text_2 div {
+            -webkit-transform: skew(0deg);
+                -ms-transform: skew(0deg);
+                    transform: skew(0deg);
+            font-size: 11px; } }
+  .wrapper .section_3 .tour {
+    background-color: #f3f3f3;
+    margin-bottom: 5px;
+    padding-bottom: 10px; }
+  .wrapper .section_3 img {
+    -webkit-flex-basis: 350px;
+        -ms-flex-preferred-size: 350px;
+            flex-basis: 350px;
+    height: 170px;
+    margin-top: 10px; }
+  .wrapper .section_3 .textContent {
+    width: 580px;
+    height: 180px;
+    padding-left: 40px; }
+    .wrapper .section_3 .textContent h1 {
+      font-size: 26px;
+      line-height: -10px;
+      border-bottom: 1px solid black;
+      width: 390px;
+      height: 50px; }
+    .wrapper .section_3 .textContent .city {
+      margin-right: 3px;
+      height: 25px;
+      padding: 0 19px 0 19px;
+      background: #D4D5DA;
+      font-size: 16px;
+      width: 80px;
+      -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+              transform: skew(-20deg); }
+    .wrapper .section_3 .textContent p {
+      line-height: 15px;
+      margin-left: -15px; }
+      .wrapper .section_3 .textContent p span {
+        font-weight: 900; }
+  .wrapper .section_3 .priceContent {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .wrapper .section_3 .priceContent .prise {
+      width: 150px;
+      font-size: 40px;
+      font-weight: 900;
+      background: #1f2327;
+      margin-bottom: -10px;
+      -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+              transform: skew(-20deg); }
+      .wrapper .section_3 .priceContent .prise figcaption {
+        margin: -5px 0 -5px 0; }
+    .wrapper .section_3 .priceContent h1 {
+      font-size: 16px; }
+  @media only screen and (max-width: 680px) {
+    .wrapper .section_3 img {
+      padding: 0; }
+    .wrapper .section_3 .priceContent {
+      padding-top: 35px; }
+    .wrapper .section_3 .textContent h1 {
+      margin-left: -23px;
+      font-size: 26px;
+      width: 100%;
+      text-align: center; }
+    .wrapper .section_3 .textContent .city {
+      width: 80px;
+      margin-top: 10px; }
+    .wrapper .section_3 .conteinerCity, .wrapper .section_3 .conteinerContent {
+      margin: auto;
+      width: 260px; }
+    .wrapper .section_3 .prise {
+      margin-left: 23px; } }
+  .wrapper .section_4 .button {
+    margin-bottom: 200px; }
+  .wrapper .section_4 .carousel {
+    padding-top: 5%; }
+    .wrapper .section_4 .carousel .carousel-inner {
+      width: 72%; }
+    .wrapper .section_4 .carousel .buttonCounter1 {
+      margin-top: 44px;
+      margin-right: 130px; }
+    .wrapper .section_4 .carousel .buttonCounter2 {
+      margin-top: 44px;
+      margin-left: 130px; }
+    .wrapper .section_4 .carousel .carousel-item img {
+      height: 120px;
+      margin-top: 10px;
+      margin-right: 8px;
+      float: left; }
+    .wrapper .section_4 .carousel .carousel-item h1 {
+      font-size: 26px; }
+    .wrapper .section_4 .carousel .carousel-item p {
+      font-size: 16px; }
+  @media only screen and (max-width: 1280px) {
+    .wrapper .section_4 .buttonCounter1, .wrapper .section_4 .buttonCounter2 {
+      display: none; }
+    .wrapper .section_4 .comment div {
+      border: 6px solid white; }
+    .wrapper .section_4 .carousel-item img {
+      padding-right: 100px; } }
+  .wrapper .section_5 {
+    height: 500px;
+    background-image: url(../img/backgraund_5.png); }
+    .wrapper .section_5 .tableCenter {
+      margin-top: 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      height: 260px;
+      -webkit-transform: skew(-20deg);
+          -ms-transform: skew(-20deg);
+              transform: skew(-20deg); }
+      .wrapper .section_5 .tableCenter div {
+        -webkit-transform: skew(20deg);
+            -ms-transform: skew(20deg);
+                transform: skew(20deg); }
+      .wrapper .section_5 .tableCenter .call {
+        width: 520px;
+        height: 50px;
+        color: #5a696f;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 0px; }
+      .wrapper .section_5 .tableCenter p {
+        font-size: 20px; }
+      .wrapper .section_5 .tableCenter .caption1 {
+        color: white; }
+    .wrapper .section_5 .tableLeft {
+      margin-bottom: 40px;
+      margin-right: -40px; }
+    .wrapper .section_5 .tableRight {
+      margin-top: 40px;
+      margin-left: -40px; }
+    @media only screen and (max-width: 1280px) {
+      .wrapper .section_5 .tableLeft, .wrapper .section_5 .tableRight {
+        display: none; }
+      .wrapper .section_5 .tableCenter {
+        -webkit-transform: skew(0deg);
+            -ms-transform: skew(0deg);
+                transform: skew(0deg); }
+        .wrapper .section_5 .tableCenter div {
+          -webkit-transform: skew(0deg);
+              -ms-transform: skew(0deg);
+                  transform: skew(0deg); }
+          .wrapper .section_5 .tableCenter div .call {
+            margin-left: auto;
+            width: 80%; }
+          .wrapper .section_5 .tableCenter div .button {
+            margin-left: auto; }
+          .wrapper .section_5 .tableCenter div .cption1 {
+            font-size: 30px; }
+          .wrapper .section_5 .tableCenter div p {
+            font-size: 10px;
+            padding-top: 5%; } }
